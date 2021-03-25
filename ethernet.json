@@ -24,7 +24,8 @@
     }
   },
   "frameworks": [
-    "arduino"
+    "arduino",
+    "simba"
   ],
   "name": "Arduino Ethernet",
   "upload": {
