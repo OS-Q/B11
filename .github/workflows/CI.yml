@@ -89,3 +89,10 @@ jobs:
         working-directory: examples
         run: |
           pio run -d ${{ matrix.example }}
+
+      - name: Upload
+        if: success()
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{github.workflow}}_${{ matrix.example }}_${{ matrix.os }}
+          path: .pio/build/
