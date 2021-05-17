@@ -44,12 +44,6 @@
       "owner": "platformio",
       "version": "~1.0.7"
     },
-    "framework-arduino-megaavr-megatinycore": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~2.1.5"
-    },
     "tool-avrdude-megaavr": {
       "type": "uploader",
       "optional": true,
