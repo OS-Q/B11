@@ -7,9 +7,9 @@ on:
 
 env:
   MONT: "M03"
-  PLAT: "P12"
+  PLAT: "P114"
   TEMP: "F12"
-  TOPIC: "P12(megaavr) "
+  TOPIC: "P114(megaavr) "
   LASTV: "v0.0.1"
 
 jobs:

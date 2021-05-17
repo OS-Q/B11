@@ -15,11 +15,11 @@
 from platformio.managers.platform import PlatformBase
 
 
-class P12Platform(PlatformBase):
+class P114Platform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not variables.get("board"):
-            return super(P12Platform, self).configure_default_packages(
+            return super(P114Platform, self).configure_default_packages(
                 variables, targets)
 
         build_core = variables.get(
@@ -39,5 +39,5 @@ class P12Platform(PlatformBase):
         if any(t in targets for t in ("fuses", "bootloader")):
             self.packages["tool-avrdude-megaavr"]["optional"] = False
 
-        return super(P12Platform, self).configure_default_packages(
+        return super(P114Platform, self).configure_default_packages(
             variables, targets)
