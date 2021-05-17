@@ -1,6 +1,6 @@
 {
   "name": "P114",
-  "title": "Atmel mega AVR",
+  "title": "Atmel Mega AVR",
   "description": "8-bit MCUs Built for Real-time Control with Core Independent Peripherals combining intelligent hardware peripherals along with the low-power capability of an AVR core, megaAVR microcontrollers (MCUs) broaden the effectiveness of your real-time control systems.",
   "homepage": "https://www.microchip.com/design-centers/8-bit/avr-mcus/device-selection/atmega4809",
   "license": "Apache-2.0",
@@ -48,8 +48,8 @@
       "type": "uploader",
       "optional": true,
       "owner": "platformio",
-      "version": "~1.60300.0",
-      "optionalVersions": ["~2.60300.0"]
+      "version": "~2.60300.0",
+      "optionalVersions": ["~1.60300.0"]
     }
   }
 }
