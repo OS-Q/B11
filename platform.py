@@ -16,7 +16,7 @@ class P114Platform(PlatformBase):
             framework_package = "framework-arduino-megaavr-%s" % build_core.lower()
             self.frameworks["arduino"]["package"] = framework_package
             self.packages[framework_package]["optional"] = False
-            self.packages["framework-arduino-megaavr"]["optional"] = True
+            self.packages["A114"]["optional"] = True
 
             if build_core in ("MegaCoreX", "megatinycore"):
                 self.packages["toolchain-atmelavr"]["version"] = "~2.70300.0"

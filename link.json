@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-atmelmegaavr.git"
+    "url": "https://github.com/OS-Q/P114.git"
   },
   "version": "1.4.0",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduino-megaavr",
+      "package": "A114",
       "script": "extend/frameworks/arduino.py"
     }
   },
@@ -32,11 +32,10 @@
       "version": "~2.70300.0",
       "optionalVersions": ["~1.70300.0"]
     },
-    "framework-arduino-megaavr": {
+    "A114": {
       "type": "framework",
       "optional": true,
-      "owner": "platformio",
-      "version": "~1.8.7"
+      "version": "https://github.com/OS-Q/A114.git"
     },
     "framework-arduino-megaavr-megacorex": {
       "type": "framework",
